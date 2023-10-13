@@ -331,6 +331,23 @@ header {
   color: #757575;
 }
 
+.what-we-do-desc {
+  position: relative;
+  bottom: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
 footer {
   background-color: #2f303a;
   height: 250px;
@@ -378,8 +395,14 @@ footer {
 
 .our-job-photo-list {
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.our-job-photo-list-item {
+  width: 370px;
+  height: 294px;
 }
 
 .our-team-box {
