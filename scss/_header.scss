@@ -1,0 +1,64 @@
+header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-position {
+    display: flex;
+    align-items: center;
+
+}
+.nav-list {
+    display: flex;
+    margin-left: 92px;
+    gap: 55px;
+}
+
+/* Робимо логотип як на макеті ( не забуваємо дати йому інший шрифт Raleway, також прописуємо line height індексом )*/
+.logo-header-link {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Прописуємо властивості для всіх елементів списка неву */
+.nav-list-item-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+
+/* Пропишемо ховер (при наведені зміну коліру текста) */
+.nav-list-item-link:hover {
+    color: #2196f3;
+}
+
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+}
+
+/* Пропишемо властивості елементів списку контактів */
+.contacts-list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: #757575;
+}
+
+/* Також пропишемо ховер */
+.contacts-list-item:hover {
+    color: #2196f3;
+}

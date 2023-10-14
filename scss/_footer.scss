@@ -1,0 +1,36 @@
+footer {
+    background-color: #2f303a;
+    height: 250px;
+}
+
+.h3-footer {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    padding-top: 60px;
+}
+
+/* Добавимо в футері властивості для фіз. адреси */
+.footer-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+/* Та властивості для телефону та пошти */
+.footer-subtitle1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-item {
+    padding-top: 9px;
+}

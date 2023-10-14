@@ -1,0 +1,92 @@
+.lists-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+/* Скриваємо текст в h2 */
+.subtitle {
+    opacity: 0;
+}
+/* Прописуємо властивості для 4 наших блоків з нашими якостями */
+.frame-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+/* А також для 4 підзаголовками */
+.frame-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+.qualities-list {
+    display: flex;
+}
+
+.qualities-list-item {
+    margin: 30px;
+}
+.icon-frame {
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.antenna-icon,
+.clock-icon,
+.diagram-icon,
+.astronaut-icon {
+    width: 70px;
+    height: 70px;
+}
+.our-job-section {
+    padding-bottom: 94px;
+}
+
+/* Тепер пропишемо для заголовку де буде інший блок з фото */
+.our-job-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our-job-photo-list {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.our-job-photo-list-item {
+    width: 370px;
+    height: 294px;
+}
+.what-we-do-desc {
+    position: relative;
+    bottom: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.80);
+    width: 370px;
+    height: 70px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.42px;
+    font-weight: 700;
+    font-size: 14px;
+}
